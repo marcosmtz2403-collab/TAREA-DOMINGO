@@ -1,0 +1,247 @@
+/* ESTLOS GENERALES */
+
+body {
+    color: #1d2529;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.seccion {
+    padding: 65px 0;
+}
+
+.subtitulo {
+    color: #e77b17;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.texto-gris {
+    color: #777;
+}
+
+.bg-claro {
+    background-color: #f8faf4;
+}
+
+
+/* MENU */
+
+.barra-superior {
+    background-color: #7dab13;
+}
+
+.navbar {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link:hover {
+    color: #78a90e !important;
+}
+
+
+/* PORTADA */
+
+.portada {
+    background-color: #f6f7f4;
+}
+
+.titulo-principal {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.12;
+}
+
+.foto-portada {
+    width: 100%;
+    max-height: 440px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+
+/* BOTONES */
+
+.btn-naranja {
+    background-color: #ff8108;
+    color: white;
+    border: none;
+}
+
+.btn-naranja:hover {
+    background-color: #d96800;
+    color: white;
+}
+
+.btn-verde {
+    background-color: #79ae14;
+    color: white;
+    border: none;
+}
+
+.btn-verde:hover {
+    background-color: #598b08;
+    color: white;
+}
+
+
+/* CATEGORIAS */
+
+.categoria {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.categoria i {
+    color: #82ac28;
+}
+
+.categoria h5 {
+    font-size: 16px;
+}
+
+
+/* NOSOTROS */
+
+.imagen-nosotros {
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+/* PROMOCIONES */
+
+.promo {
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 175px;
+}
+
+.promo-verde {
+    background-color: #edf5e5;
+}
+
+.promo-naranja {
+    background-color: #fff0e4;
+}
+
+.promo img {
+    width: 44%;
+    border-radius: 8px;
+}
+
+.promo h4 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.promo .subtitulo {
+    font-size: 15px;
+}
+
+
+/* GALERIA */
+
+.foto-galeria {
+    height: 390px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* PRODUCTOS */
+
+.producto {
+    position: relative;
+    border-color: #eeeeee;
+}
+
+.producto img {
+    height: 190px;
+    object-fit: cover;
+}
+
+.producto .card-title {
+    font-size: 18px;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* PIE DE PAGINA */
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #a8d94a;
+}
+
+
+/* TABLET */
+
+@media (max-width: 991px) {
+    .titulo-principal {
+        font-size: 43px;
+    }
+
+    .promo {
+        padding: 12px;
+    }
+
+    .promo h4 {
+        font-size: 17px;
+    }
+}
+
+
+/* TELEFONO */
+
+@media (max-width: 767px) {
+    .titulo-principal {
+        font-size: 35px;
+    }
+
+    .portada {
+        text-align: center;
+    }
+
+    .seccion {
+        padding: 40px 0;
+    }
+
+    .foto-galeria {
+        height: 230px;
+    }
+
+    .producto img {
+        height: 145px;
+    }
+
+    .producto .btn {
+        font-size: 12px;
+    }
+
+    .categoria {
+        padding: 15px !important;
+    }
+
+    .categoria h5 {
+        font-size: 14px;
+    }
+}

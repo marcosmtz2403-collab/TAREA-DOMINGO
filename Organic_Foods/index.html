@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="MMI UTL">
+    <meta name="description" content="Tienda de frutas y verduras orgánicas">
+    <title>Organic Foods | Frutas y Verduras</title>
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="miEstilo.css">
+  </head>
+  <body>
+    <!--barra de contacto-->
+    <div class="barra-superior text-white py-2 d-none d-md-block">
+      <div class="container d-flex justify-content-between">
+        <small>
+          
+          contacto@organicfoods.com-
+         
+          Lunes a viernes: 7:00 a 14:00
+        </small>
+        <small>
+          <i class="bi bi-telephone"></i>
+          477 000 0000
+          <i class="bi bi-instagram"></i>
+        </small>
+      </div>
+    </div>
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">
+          
+          Organic
+          <span class="text-success">Foods</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-tit">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-tit">
+              <a class="nav-link" href="#categorias">Categorías</a>
+            </li>
+            <li class="nav-tit">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-tit">
+              <a class="nav-link" href="#promociones">Promociones</a>
+            </li>
+            <li class="nav-tit">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+            <li class="nav-tit">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-tit">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          <a href="#productos" class="btn btn-naranja ms-lg-3">Comprar ahora »</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!--encabezado-->
+      <header id="inicio" class="portada py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p class="subtitulo">Bienvenidos a Organic Foods</p>
+              <h1 class="titulo-principal">
+                Alimentos
+                <br>
+                Orgánicos y
+                <br>
+                Vegetales
+              </h1>
+              <p class="mb-4">Productos frescos y naturales directamente del campo a tu mesa.</p>
+              <a class="btn btn-naranja me-2" href="#productos">Comprar ahora »</a>
+              <a class="btn btn-verde" href="#nosotros">Conoce más »</a>
+            </div>
+            <div class="col-md-6 text-center mt-4 mt-md-0">
+              <img src="images/TITULO.jpg" class="img-fluid foto-portada" alt="Frutas orgánicas">
+             </div>
+          </div>
+        </div>
+      </header>
+      <!--categorias-->
+      <section id="categorias" class="seccion">
+        <div class="container">
+           <p class="subtitulo">Alimentos populares</p>
+          <div class="row align-items-center mb-4">
+            <div class="col-md-7">
+               <h2>Frutas y verduras de calidad</h2>
+            </div>
+          </div>
+          <div class="row g-3 justify-content-center">
+            <div class="col-6 col-md-4 col-lg">
+              <div class="categoria border text-center p-4 h-100">
+               <i class="bi bi-apple fs-1"></i>
+                <h5 class="mt-3">Frutas orgánicas</h5>
+                
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+              <div class="categoria border text-center p-4 h-100">
+                <i class="bi bi-flower1 fs-1"></i>
+              <h5 class="mt-3">Vegetales</h5>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+              <div class="categoria border text-center p-4 h-100">
+                <i class="bi bi-water fs-1"></i>
+                <h5 class="mt-3">Productos frescos</h5>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+              <div class="categoria border text-center p-4 h-100">
+                <i class="bi bi-basket2 fs-1"></i>
+                <h5 class="mt-3">Canasta saludable</h5>
+                
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+              <div class="categoria border text-center p-4 h-100">
+                <i class="bi bi-egg fs-1"></i>
+                <h5 class="mt-3">Huevos de granja</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--nosotros-->
+      <section id="nosotros" class="seccion">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-md-6">
+              <div class="row g-2">
+                <div class="col-6 pt-5">
+                  <img src="images/AGRI.jpg" class="img-fluid imagen-nosotros" alt="Trabajo en el campo">
+                </div>
+                <div class="col-6">
+                  <img src="images/VERD.jpg" class="img-fluid imagen-nosotros mb-2" alt="Agricultor">
+                  <img src="images/VERD2.jpg" class="img-fluid imagen-nosotros" alt="Cosecha">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p class="subtitulo">Sobre nosotros</p>
+              <h2>Alimentos orgánicos y saludables para todos</h2>
+              <div class="row my-4">
+                <div class="col-6">
+                  <h5>
+                    <i class="bi bi-check-circle text-success"></i>
+                    Agricultura natural
+                  </h5>
+                </div>
+                <div class="col-6">
+                  <h5>
+                  <i class="bi bi-check-circle text-success"></i>
+                    Frutas y verduras
+                  </h5>
+                </div>
+              </div>
+              <hr>
+              <p class="texto-gris">Nos dedicamos a ofrecer alimentos frescos y de buena calidad. Creemos en una alimentación saludable y en el trabajo de nuestros productores.</p>
+              <a href="#productos" class="btn btn-verde">Nuestros productos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--promociones-->
+      <section id="promociones" class="seccion">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="promo promo-verde">
+                <div>
+                  <p class="subtitulo">35% de descuento</p>
+                  <h4>Vegetales frescos</h4>
+                  <a class="btn btn-verde btn-sm" href="#productos">Comprar »</a>
+                </div>
+                <img src="images/VEGFRES.jpg" alt="Brócoli">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="promo promo-naranja">
+                <div>
+                  <p class="subtitulo">25% de descuento</p>
+                  <h4>Frutas orgánicas</h4>
+                  <a class="btn btn-naranja btn-sm" href="#productos">Comprar »</a>
+                </div>
+                <img src="images/FRUTASORGA.jpg" alt="Naranjas">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="promo promo-verde">
+                <div>
+                  <p class="subtitulo">30% de descuento</p>
+                  <h4>Fresas maduras</h4>
+                  <a class="btn btn-verde btn-sm" href="#productos">Comprar »</a>
+                </div>
+                <img src="images/FRESAS.jpg" alt="Fresas">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--galeria-->
+      <section id="galeria" class="seccion bg-claro">
+        <div class="container">
+          <p class="subtitulo text-center">Del campo a tu mesa</p>
+          <h2 class="text-center mb-4">Nuestra galería</h2>
+          <div id="carouselGaleria" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/CAMPOMESA.jpg" class="d-block w-100 foto-galeria" alt="Galería 1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/CAMPOMESA3.webp" class="d-block w-100 foto-galeria" alt="Galería 2">
+              </div>
+              <div class="carousel-item">
+                <img src="images/CAMPOMESA2.jpg" class="d-block w-100 foto-galeria" alt="Galería 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--productos-->
+      <section id="productos" class="seccion">
+        <div class="container">
+          <p class="subtitulo text-center">Lo mejor de nuestra tienda</p>
+          <h2 class="text-center mb-4">Nuestros productos</h2>
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">FRESCO</span>
+                <img src="images/MANZANA.jpg" class="card-img-top" alt="Manzanas">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Manzanas rojas</h5>
+                  <p class="card-text text-success fw-bold">$45 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">FRESCO</span>
+                <img src="images/NARANJAS.jpg" class="card-img-top" alt="Naranjas frescas">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Naranjas frescas</h5>
+                  <p class="card-text text-success fw-bold">$35 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">OFERTA</span>
+                <img src="images/FRESAS2.jpeg" class="card-img-top" alt="Fresas">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Fresas</h5>
+                  <p class="card-text text-success fw-bold">$65 / caja</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">FRESCO</span>
+                <img src="images/BROCOLI.jpg" class="card-img-top" alt="Brócoli">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Brócoli</h5>
+                  <p class="card-text text-success fw-bold">$32 / pieza</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">FRESCO</span>
+                <img src="images/ZANAHORIA.jpg" class="card-img-top" alt="Zanahorias">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Zanahorias</h5>
+                  <p class="card-text text-success fw-bold">$28 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">OFERTA</span>
+                <img src="images/LIMONES.jpg" class="card-img-top" alt="Limones">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Limones</h5>
+                  <p class="card-text text-success fw-bold">$30 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">FRESCO</span>
+                <img src="images/UVAS.webp" class="card-img-top" alt="Uvas">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Uvas</h5>
+                  <p class="card-text text-success fw-bold">$75 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">FRESCO</span>
+                <img src="images/AGUACATE.jpg" class="card-img-top" alt="Aguacates">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Aguacates</h5>
+                  <p class="card-text text-success fw-bold">$79 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">OFERTA</span>
+                <img src="images/TOMATES.jpg" class="card-img-top" alt="Tomates">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tomates</h5>
+                  <p class="card-text text-success fw-bold">$36 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card h-100 producto">
+                <span class="badge text-bg-warning etiqueta">FRESCO</span>
+                <img src="images/PLATANO.jpg" class="card-img-top" alt="Plátanos">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Plátanos</h5>
+                  <p class="card-text text-success fw-bold">$29 / kg</p>
+                  <a href="#contacto" class="btn btn-verde">Ver producto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--preguntas frecuentes -componente nuevo-->
+      <section id="preguntas" class="seccion bg-claro">
+        <div class="container">
+          <h2 class="text-center mb-4">Preguntas frecuentes</h2>
+          <div class="accordion" id="preguntasFrecuentes">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#respuesta1" aria-expanded="true" aria-controls="respuesta1">¿De dónde vienen los productos?</button>
+              </h3>
+              <div id="respuesta1" class="accordion-collapse collapse show" data-bs-parent="#preguntasFrecuentes">
+                <div class="accordion-body">Trabajamos con productores locales que nos ofrecen frutas y verduras frescas.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#respuesta2" aria-expanded="false" aria-controls="respuesta2">¿Tienen productos de temporada?</button>
+              </h3>
+              <div id="respuesta2" class="accordion-collapse collapse" data-bs-parent="#preguntasFrecuentes">
+                <div class="accordion-body">Sí, nuestro catálogo cambia de acuerdo con la temporada.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer id="contacto" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h4>Organic Foods</h4>
+            <p>Frutas y verduras frescas para tu familia.</p>
+            <p>
+              
+              contacto@organicfoods.com
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <h5>Síguenos en redes</h5>
+            <a href="https://www.facebook.com/" class="fs-3 me-3" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="fs-3 me-3" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/" class="fs-3" aria-label="TikTok">
+              <i class="bi bi-tiktok"></i>
+            </a>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center mb-0">© 2026 Organic Foods UTL | Marcos Alvaro Martinez Ibarra</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
